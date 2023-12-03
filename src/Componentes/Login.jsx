@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../Assets/logoCafe.svg';
+import logo from '../Assets/LogoBlanco.svg';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { SaveLocalStorage } from '../helpers/SaveLocalStorage';
@@ -9,7 +9,7 @@ const Login = () => {
   const navigate = useNavigate();
   const[user, setUser] = useState('');
   const[password,setPassword] = useState('');
-  const URL = "https://railbaccck-production.up.railway.app";
+  //const URL = "https://railbaccck-production.up.railway.app";
   const loginButton = (e)=>{
     e.preventDefault();
     const credential ={
@@ -28,7 +28,7 @@ const Login = () => {
   
   
   return (
-    <div className='container'>
+    <div className='container' >
       <div className="login">
 
         <span>
@@ -37,11 +37,11 @@ const Login = () => {
         <form>
           <div className="form-group">
 
-            <span className="pi pi-user"></span>
+            <span className="pi pi-user" style={{color: 'white'}}></span>
             <input type="text" id="username" name="username" className='formcaja' onChange={(e) => setUser(e.target.value)}/>
           </div>
           <div className="form-group">
-          <span className="pi pi-lock"></span>
+          <span className="pi pi-lock" style={{color: 'white'}}></span>
 
             <input type="password" id="password" name="password" className='formcaja' onChange={(e) => setPassword(e.target.value)}/>
           </div>
