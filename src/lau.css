@@ -4,10 +4,10 @@
 :root{
   --fontLogo: 'Dancing Script', cursive;
   --fontDefault: 'Noto Sans', sans-serif;
-  --crema: #f5e5c1;
-  --cafe: #5D4717;
-  --cafeClaro: #AF8155;
-  --cafeSemiOscuro: #976F49;
+  --crema: #1A5C7D;
+  --cafe: #fff;
+  --cafeClaro: #1A6678;
+  --cafeSemiOscuro: #124F58;
   --cafeOscuro: #342609;
 }
 /*boton modificar

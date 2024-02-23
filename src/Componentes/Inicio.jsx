@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../Assets/logoCafe.svg';
+import logo from '../Assets/logoColor.svg';
 
 export const Inicio = () => {
   return (

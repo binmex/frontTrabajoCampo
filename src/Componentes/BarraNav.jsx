@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../Assets/logoCafe.svg';
+import logo from '../Assets/LogoBlanco.svg';
 
 
 export const BarraNav = () => {
@@ -13,7 +13,7 @@ export const BarraNav = () => {
         <span>
           <img src={logo} alt='logo' className='app-logo'/>
         </span>
-        <h3>El Sitio del tinto</h3>
+        <h3>SIPAGA</h3>
       </div>
       <nav>
         <ul>

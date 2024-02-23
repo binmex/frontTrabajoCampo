@@ -1,13 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-  --fontLogo: "Dancing Script", cursive;
+  --fontLogo: "Kanit", Bold 700 Italic;
   --fontDefault: "Noto Sans", sans-serif;
-  --crema: #f5e5c1;
-  --cafe: #5d4717;
-  --cafeClaro: #af8155;
-  --cafeSemiOscuro: #976f49;
+  --crema: #1A5C7D;
+  --cafe: #FFF;
+  --cafeClaro: #1A6678;
+  --cafeSemiOscuro: #124F58;
   --cafeOscuro: #342609;
 }
 .contenido {
