@@ -16,7 +16,7 @@ const Login = () => {
       nombre: user,
       contraseña: password
     }
-    axios.post("http://localhost:4000/api/login/succes",credential).then((res) => {
+    axios.post("https://backtrabajocampo-production.up.railway.app/api/login/succes",credential).then((res) => {
       //redireccionar a dashboard
       SaveLocalStorage("login",res.data.token)
       navigate('/dashboard');
