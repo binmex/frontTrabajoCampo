@@ -5,7 +5,7 @@ import axios from 'axios';
 
 export const VistaTabla = ({products,setProducts}) => {
     const [totalValueSold, setTotalValueSold] = useState(0);
-    const URL = "https://railbaccck-production.up.railway.app";
+    const URL = "http://localhost:4000";
 
     useEffect(() => {
         const token = JSON.parse(localStorage.getItem("login"));

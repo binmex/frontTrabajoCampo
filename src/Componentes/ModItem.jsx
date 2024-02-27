@@ -16,7 +16,7 @@ export const ModItem = () => {
   const [venta, setVenta] = useState(null);
   const [cantidad, setCantidad] = useState(null);
   const [showMessage, setShowMessage] = useState(false);
-  const URL = "https://railbaccck-production.up.railway.app";
+  const URL = "http://localhost:4000";
 
   const showMessageAlert = () => {
     setShowMessage(true);

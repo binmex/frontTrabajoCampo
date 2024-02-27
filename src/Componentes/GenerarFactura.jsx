@@ -13,7 +13,7 @@ export const GenerarFactura = () => {
   const [montoPagado, setMontoPagado] = useState(0);
   const [cambio, setCambio] = useState(0);
   const [showMessage, setShowMessage] = useState(false);
-  const URL = "https://railbaccck-production.up.railway.app";
+  const URL = "http://localhost:4000";
   const showMessageAlert = () => {
     setShowMessage(true);
     setTimeout(() => {

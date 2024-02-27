@@ -5,7 +5,7 @@ import axios from 'axios';
 export const BuscarItem = () => {
   const [selectedProduct, setSelectProduct] = useState(null);
   const [data,setData] = useState([]);
-  const URL = "https://railbaccck-production.up.railway.app";
+  const URL = "http://localhost:4000";
   
   useEffect(()=>{
     const token = JSON.parse(localStorage.getItem("login"));

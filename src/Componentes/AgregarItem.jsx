@@ -11,7 +11,7 @@ export const AgregarItem = () => {
   const [venta, setVenta] = useState("");
   const [cantidad, setCantidad] = useState("");
   const [showMessage, setShowMessage] = useState(false);
-  const URL = "https://railbaccck-production.up.railway.app";
+  const URL = "http://localhost:4000";
   const showMessageAlert = () => {
     setShowMessage(true);
     setTimeout(() => {

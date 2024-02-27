@@ -14,7 +14,7 @@ export const RotacionProducto = () => {
   const [cantFin, setCantFin] = useState(0);
   const [cantSell, setCantSell] = useState(0);
   const [rotacion, setRotacion] = useState(0);
-  const URL = "https://railbaccck-production.up.railway.app";
+  const URL = "http://localhost:4000";
   //logica del negocio
   useEffect(() => {
     const token = JSON.parse(localStorage.getItem("login"));
