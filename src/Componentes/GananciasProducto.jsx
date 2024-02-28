@@ -19,7 +19,7 @@ export const GananciasProducto = () => {
   const [gananciaNeta, setGananciaNeta] = useState(0);
   const [inversion, setInversion] = useState(0);
   const [fechaMayor, setFechaMayor] = useState('0000-00-00');
-  const URL = "http://localhost:4000";
+  const URL = "https://back-trabajo-campo.vercel.app";
 
   //logica del negocio
   useEffect(() => {

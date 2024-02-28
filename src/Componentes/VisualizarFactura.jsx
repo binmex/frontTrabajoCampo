@@ -7,7 +7,7 @@ import axios from "axios";
 export const VisualizarFactura = () => {
   const [factura, setFactura] = useState(0);
   const [products, setProducts] = useState([]);
-  const URL = "http://localhost:4000";
+  const URL = "https://back-trabajo-campo.vercel.app";
 
   const searchFactura = () => {
     if (factura == null) {

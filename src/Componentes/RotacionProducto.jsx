@@ -14,7 +14,7 @@ export const RotacionProducto = () => {
   const [cantFin, setCantFin] = useState(0);
   const [cantSell, setCantSell] = useState(0);
   const [rotacion, setRotacion] = useState(0);
-  const URL = "http://localhost:4000";
+  const URL = "https://back-trabajo-campo.vercel.app";
   //logica del negocio
   useEffect(() => {
     const token = JSON.parse(localStorage.getItem("login"));

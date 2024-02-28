@@ -13,7 +13,7 @@ export const GenerarFactura = () => {
   const [montoPagado, setMontoPagado] = useState(0);
   const [cambio, setCambio] = useState(0);
   const [showMessage, setShowMessage] = useState(false);
-  const URL = "http://localhost:4000";
+  const URL = "https://back-trabajo-campo.vercel.app";
   const showMessageAlert = () => {
     setShowMessage(true);
     setTimeout(() => {

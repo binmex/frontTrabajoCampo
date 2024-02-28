@@ -16,7 +16,7 @@ export const ModItem = () => {
   const [venta, setVenta] = useState(null);
   const [cantidad, setCantidad] = useState(null);
   const [showMessage, setShowMessage] = useState(false);
-  const URL = "http://localhost:4000";
+  const URL = "https://back-trabajo-campo.vercel.app";
 
   const showMessageAlert = () => {
     setShowMessage(true);
